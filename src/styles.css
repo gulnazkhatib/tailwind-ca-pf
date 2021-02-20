@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mini-service-card{
+    @apply  shadow-md bg-blue-200 rounded flex p-4 h-full items-center;
+}
+
+.max-service-card{
+    @apply shadow-md bg-blue-50 border-none p-2 rounded-lg;
+}
